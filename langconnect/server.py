@@ -58,4 +58,4 @@ async def health_check() -> dict:
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run("langconnect.server:APP", host="0.0.0.0", port=8080)
+    uvicorn.run("langconnect.server:APP", host="0.0.0.0", port=8081)
